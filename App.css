@@ -1,0 +1,31 @@
+.Pokemon {
+    display: flex;
+    justify-content: center;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    color: black;
+    border: 2px solid black;
+    font-weight: bolder;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+    height: 25px;
+    display: flex;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
